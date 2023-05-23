@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="vde.MainPage">
+
+    <toolkit:DockLayout BackgroundColor="{StaticResource MainColor}">
+        <Border toolkit:DockLayout.DockPosition="Top" HeightRequest="30" BackgroundColor="{StaticResource MainColor}"/>
+        <Border toolkit:DockLayout.DockPosition="Right" WidthRequest="300" BackgroundColor="{StaticResource MainColor}"/>
+        <toolkit:DockLayout toolkit:DockLayout.DockPosition="Bottom" HeightRequest="250" BackgroundColor="{StaticResource MainColor}">
+            <Border toolkit:DockLayout.DockPosition="Left" WidthRequest="300" BackgroundColor="{StaticResource MainColor}"/>
+            <Border BackgroundColor="{StaticResource MainColor}"/>
+        </toolkit:DockLayout>        
+        <Border toolkit:DockLayout.DockPosition="Left" WidthRequest="300" BackgroundColor="{StaticResource MainColor}"/>
+        <Border BackgroundColor="{StaticResource MainColor}"/>
+    </toolkit:DockLayout>
+    
+</ContentPage>
